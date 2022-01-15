@@ -57,6 +57,7 @@ samp{
  justify-content:center;
  align-items: center;
  margin-top: 50px;
+ margin: 0 auto;
  
 }
 .section-titel h1{
@@ -111,6 +112,36 @@ font-size:44px;
     border-top: 0.50px solid gray;
     justify-content: space-between;
     padding: 10px 10px;
+}
+
+/* start cart section style */
+.section-name{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family:'Poppins';
+    font-weight:600;
+    Size:28px;
+    margin-top:60px;
+}
+.cart-section{
+    width: 1047px;
+    height: 1662;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    margin-top: 30px;
+    row-gap:5px;
+    align-items: center;
+    justify-content:space-around;
+    margin: 0 auto;
+}
+.cart{
+    width: 329px;
+    height: 476px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin:5px;
 }
 
     
