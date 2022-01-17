@@ -9,7 +9,7 @@
 body{
    
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(200, 218, 241);
+    background-color:rgb(223, 221, 221);
 }
 
 .container{
@@ -20,7 +20,7 @@ body{
 samp{
     font-family:'poppins';
     font-weight: 700;
-    color: rgb(84, 94, 245);
+    color:#e02e6f;
 }
 .navbar{
     display:grid;
@@ -65,6 +65,9 @@ font-family:'Poppins';
 Weight:700;
 font-size:44px;
 }
+.p-titel h3{
+    font-weight:500;
+}
 .main-camera p{
     font-family:'Poppins';
     font-size: 16px;
@@ -76,7 +79,7 @@ font-size:44px;
  .common-button{
     margin: 10px 0px;
     padding:10px 24px;
-    background-color: #e02c6d;
+    background-color: #e02e6f;
     color: white;
     font-size: 16px;
     font-family: 'poppins';
@@ -143,6 +146,96 @@ font-size:44px;
     border-radius: 5px;
     margin:5px;
 }
-
+.fa-star{
+   
     
+    color: orange;
+}
+#empty{
+    color:#aeaeae;
+}
+.buyers a{
+    display: grid;
+    justify-content:end;
+}
+.buyers i{
+    
+    font-size:20px;
 
+}
+.see-more{
+    display: grid;
+    justify-content: end;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.see-more a, i{
+    text-decoration: none;
+    color: #e02e6f;
+}
+
+
+/* start subscribe */
+.subscribe{
+    display: grid;
+    justify-content: center;
+    margin: 80px;
+    align-items:flex-start;
+    width: 100%;
+    
+}
+.subscribe input{
+    width:80%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    border:1px solid #e02e6f;
+    border-radius: 15px;
+}
+.subscribe button{
+    width:150px;
+}
+/* stayle in footer */
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px 0px;
+    display: grid;
+    align:justify-content;
+    justify-content:center;
+}
+.footer i{
+margin: 5px;
+width: 25px;
+}
+.footer p{
+font-size: 14px;
+}
+/* footer style end */
+
+/* Media Queries start */
+@media (max-width:1220) {
+    header{
+        display: grid;
+        grid-template-columns:repeat(1 ,hr);
+    }
+    
+}
+    
+@media (max-width:950px) {
+    .cart-section{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    justify-content: center;
+    }
+
+    .conteint{
+    
+    }
+
+}
+
+
+
+
+ 
