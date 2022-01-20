@@ -1,0 +1,37 @@
+.navbar{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 30px;
+    align-items: center;
+}
+
+.manu{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    justify-content: flex-end;
+    
+    
+    
+
+}
+.shoping{
+    display: inline;
+    
+}
+li:hover{
+    background-color: #e02e6f;
+    color: white;
+
+}
+.manu li{
+    list-style: none;
+    padding: 5px 5px;
+    
+    
+}
+.manu li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    
+}
