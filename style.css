@@ -97,7 +97,7 @@ margin-top: 10px;
 /* brand logo section style End */
 /* card section style start */
 .cards{
-    width: 80vw;
+    width: 1440px;
     margin:20px  auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
