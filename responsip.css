@@ -58,6 +58,20 @@
         font-size: 1rem;
         margin-top: 1em;
     }
+    /* featured section */
+    .featured{
+        flex-direction: column;
+
+    }
+    .featured-products{
+        width: 80vw;
+        margin:25px auto; 
+    }
+    .featured-photo , .featured-content{
+        width: 80vw;
+       
+    }
+
 }
 @media only screen and (min-width: 476px) and  (max-width: 644px){
     /* nav bar */
@@ -102,6 +116,20 @@
     grid-template-columns:1fr;
     margin: 10px auto;
     width: 60vw;
+}
+/* featured section */
+.featured{
+    flex-direction: column;
+
+}
+.featured-products{
+    width: 80vw;
+    margin:25px auto; 
+}
+.featured-photo , .featured-content{
+    width: 80vw;
+    margin: 40px auto;
+   
 }
     
     }
@@ -152,6 +180,23 @@
     font-size: 1.75rem;
     margin-top: 1em;
 }
+/* featured section */
+.featured{
+    flex-direction: column;
+
+}
+.featured-products{
+    width: 80vw;
+    margin:25px auto; 
+}
+.featured-photo {
+    width: 80vw;
+    margin: 40px auto;
+   
+}
+.featured-content{
+    margin: 55px auto;
+}
     }
     @media only screen and (min-width: 701px) and (max-width: 1220px){
         .bennar-section{
@@ -185,6 +230,27 @@
 .card-section-heading{
     font-size: 1.75rem;
     margin-top: 1em;
+}
+/* featured section */
+.featured{
+    flex-direction: column;
+
+}
+.featured-products{
+    width: 80vw;
+    margin:25px auto; 
+}
+.featured-photo {
+    width: 80vw;
+    margin: 40px auto;
+    margin-bottom: 350px;
+  
+}
+.featured-content{
+    margin: 55px auto;
+}
+.featured-content h1 ,.featured-content p{
+    color: rgb(5, 5, 5);
 }
 
     }
